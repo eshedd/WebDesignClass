@@ -1,10 +1,17 @@
-body {
-    background-color: paleturquoise;
-}
 h1 {
-    color: red;
+    color: black;
     text-align: center;
+    font-family: "Palatino";
+    font-size: 100px;
+    background-color: rgb(245, 245, 245);
+    margin-top: -8px;
+    margin-right: -50px;
+    margin-left: -50px;
+
 }
-#lit {
-    background-color: green;
+.container {
+    border: 200px;
+    border-color: grey;
+    margin: auto;
+    display:block;
 }
