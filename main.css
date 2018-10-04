@@ -7,11 +7,13 @@ h1 {
     margin-top: -8px;
     margin-right: -50px;
     margin-left: -50px;
+    text-shadow: 3px 3px silver;
 }
 #redirect {
     color: rgb(245, 245, 245);
     font-family: "Arial";
     text-decoration: none;
+    text-shadow: 3px 3px black;
 }
 .container1 {
     margin: auto;
@@ -22,6 +24,6 @@ h1 {
     display: block;
 }
 #redirect:hover{
-    color:blue;
+    color:silver;
     text-decoration: none;
 }
