@@ -8,16 +8,20 @@ h1 {
     margin-right: -50px;
     margin-left: -50px;
 }
-#peener {
+#redirect {
     color: rgb(245, 245, 245);
     font-family: "Arial";
     text-decoration: none;
 }
-.container {
+.container1 {
     margin: auto;
     display:block;
 }
-#peener:hover{
+.container2 {
+    margin: auto;
+    display: block;
+}
+#redirect:hover{
     color:blue;
     text-decoration: none;
 }
