@@ -17,13 +17,47 @@ h1 {
 }
 .container1 {
     margin: auto;
-    display:block;
-}
-.container2 {
-    margin: auto;
     display: block;
 }
 #redirect:hover{
     color:silver;
     text-decoration: none;
 }
+.image-cropper {
+    margin: auto;
+    display: block;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 150px;
+    opacity: .60;
+}
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+.topnav {
+    overflow: hidden;
+    margin-top: -75px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+    
