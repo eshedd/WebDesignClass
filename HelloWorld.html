@@ -4,29 +4,33 @@
 <head>
     <title>Groovy</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <div id="content"> </div>
 </head>
 
 <body background="https://4.imimg.com/data4/IR/IJ/MY-3890861/pine-wood-500x500.jpg">
+
     <h1>Ethan Shedd</h1>
-    <div class= "topnav">
-        <ls>
-            <a id="redirect" href="Subpage/aboutMe.html">
-                <h2>About Me</h2>
-            </a>
-        </ls>
-        <ls>
-            <a id="redirect" href="Subpage/funPage.html">
-                <h2>Fun Page</h2>
-            </a>
-        </ls>
-        <ls>
-            <a id="redirect" href="Subpage/project.html">
+    <div class="topnav">
+            <a id="redirect" onclick="load_project()">
                 <h2>Projects</h2>
             </a>
-        </ls>
+            <a id="redirect" href="Subpage/funPage.html" onclick="load_home()">
+                <h2>Fun Page</h2>
+            </a>
+            <a id="redirect" href="Subpage/aboutMe.html" onclick="load_home()">
+                <h2>About Me</h2>
+            </a>
+        </a>
     </div>
-    <img class="image-cropper" alt="EthanImage" width=1 00px src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/user_photos/000/636/700/datas/xlarge.png">
-    </ul>
+    <script>
+        function load_project() {
+            document.getElementById("content").innerHTML = '<object type="type/html" data="Subpage/project.html" ></object>';
+        }
+    </script>
+    <embed src="Rats Birthday Mixtape.mp3" autostart="true" loop="true" hidden="true">
+    <div id="content">
+        <img class="image-cropper" alt="EthanImage" width=100px src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/user_photos/000/636/700/datas/xlarge.png">
+    </div>
 </body>
 
 </html>
