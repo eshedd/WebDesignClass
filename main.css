@@ -9,19 +9,50 @@ h1 {
     margin-left: -50px;
     text-shadow: 3px 3px silver;
 }
-#redirect {
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+h3 {
+    font-family: "Palatino";
+}
+div.container {
+    background-color: white;
+    border-radius: 30%;
+    display: -webkit-inline-flex;
+    width: 150px;
+    height: 150px;
+    box-shadow: 10px;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+.caption {
+    display: block;
+    font-family: "Palatino";
+    font-size:20px;
+}
+#redirect{
+    text-decoration: none;
     color: rgb(245, 245, 245);
     font-family: "Arial";
-    text-decoration: none;
     text-shadow: 3px 3px black;
-}
-.container1 {
-    margin: auto;
-    display: block;
+    transition: 0.2s;
 }
 #redirect:hover{
     color:silver;
     text-decoration: none;
+    transform: scale(1.1);
 }
 .image-cropper {
     margin: auto;
@@ -33,6 +64,14 @@ h1 {
     border-radius: 50%;
     margin-top: 150px;
     opacity: .60;
+}
+.gif-cropper {
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
 }
 .header {
     background-color: #F1F1F1;
@@ -48,16 +87,26 @@ h1 {
     display: block;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
 }
-.column {
+.right{
+      display: block;
+      float: right;
+      width: 50%;
+      height: 100px;
+  }
+.right-image {
+    height: 70px;
+    margin: 30px;
+}
+  .left a{
+      float: right;
+      height: 70px;
+      margin: 15px;
+  }
+  .left{
+    display: block;
     float: left;
     width: 50%;
-    padding: 5px;
-  }
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
+    height: 100px;
   }
     
