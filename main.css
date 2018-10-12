@@ -19,10 +19,10 @@ h3 {
 div.container {
     background-color: white;
     border-radius: 30%;
-    display: -webkit-inline-flex;
     width: 150px;
     height: 150px;
     box-shadow: 10px;
+    display: -webkit-inline-flex;
 }
 div.item {
     vertical-align: top;
@@ -41,6 +41,11 @@ img {
     display: block;
     font-family: "Palatino";
     font-size:20px;
+}
+.caption1 {
+    display: block;
+    font-family: "Palatino";
+    font-size:17px;
 }
 #redirect{
     text-decoration: none;
@@ -108,5 +113,10 @@ img {
     float: left;
     width: 50%;
     height: 100px;
+  }
+  .resume{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
   }
     
