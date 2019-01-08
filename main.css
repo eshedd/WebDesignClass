@@ -118,14 +118,15 @@ img {
       margin-right: auto;
       display: block;
   }
-.description h2{
-    float: left;
+.description{
+    float: middle;
     font-family: Palatino;
     font-size: 60px;
     background-color: none;
     color: green;
     text-shadow: 3px 3px blueviolet;
+    text-align: center;
 }
-.description box1 {
+.description img {
     
 }
