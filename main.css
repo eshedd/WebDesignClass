@@ -35,7 +35,6 @@ div.item {
 img {
     width: 100px;
     height: 100px;
-    background-color: grey;
 }
 .caption {
     display: block;
@@ -119,4 +118,14 @@ img {
       margin-right: auto;
       display: block;
   }
+.description h2{
+    float: left;
+    font-family: Palatino;
+    font-size: 60px;
+    background-color: none;
+    color: green;
+    text-shadow: 3px 3px blueviolet;
+}
+.description box1 {
     
+}
