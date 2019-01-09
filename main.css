@@ -127,6 +127,22 @@ img {
     text-shadow: 3px 3px blueviolet;
     text-align: center;
 }
-.description img {
-    
+.box1 img {
+    height: 400%;
+    float: left;
+    margin-left: 50px;
+}
+.description p {
+    font-size: 50px;
+    color: palegoldenrod;
+    text-shadow: 3px 3px red;
+}
+.box2 img {
+    float: right;
+    margin-right: 50px;
+    height: 400%;
+}
+#pingpong {
+    height: 300px;
+    width: 700px;
 }
