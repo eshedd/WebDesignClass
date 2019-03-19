@@ -145,3 +145,9 @@ img {
 #pingpong {
     height: 400%;
 }
+h4 {
+    font-family: "Palatino";
+    font-size: 35px;
+    color: white;
+    margin-top: -30px;
+}
